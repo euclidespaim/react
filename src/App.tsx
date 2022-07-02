@@ -1,10 +1,10 @@
 import React from 'react';
-import logo from './logo.svg';
+import Formulario from './components/Formulario';
 
 function App() {
   return (
     <div className="App">
-      <h2>Hello World</h2>
+      <Formulario />
     </div>
   );
 }

@@ -47,4 +47,6 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 ## O que aprendemos: 
 
--
+- Criar um componente com class component e como utilizá-lo;
+- Criar um function component;
+- Utilizar o método map para renderizar arrays;

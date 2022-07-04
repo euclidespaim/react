@@ -58,3 +58,6 @@ To learn React, check out the [React documentation](https://reactjs.org/).
     - Entendemos mais a fundo como o React trabalha com arrays, e como o key é importante para que ele não se perca entre os itens deste array.
 - Usar spread operator de forma consciente para passar props para os componentes;
     - Utilizamos o spread operator para poder passar todos os itens de um objeto como props para o componente, também pensamos como isso pode se tornar um problema.
+- O React utiliza os estados para atualizar os componentes;
+- Criar interfaces e reutilizá-las;
+- Utilizar props para informar uma mudança de estado;

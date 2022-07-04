@@ -7,6 +7,7 @@ import style from './App.module.scss';
 
 function App() {
   const [tarefas, setTarefas] = useState<ITarefa[]>([])
+  const [selecionado, setSelecionado] = useState<ITarefa | undefined>()
   
   return (
     <div className={style.AppStyle}>

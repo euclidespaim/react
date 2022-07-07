@@ -9,8 +9,12 @@ function App() {
   const [tarefas, setTarefas] = useState<ITarefa[]>([])
   const [selecionado, setSelecionado] = useState<ITarefa | undefined>()
 
-  function selecionaTarefa(tarefaSelecinada: ITarefa) {
-    setSelecionado(tarefaSelecinada)
+  function selecionaTarefa(tarefaSelecionada: ITarefa) {
+    setSelecionado(tarefaSelecionada);
+    setTarefas(tarefasAnteriores => tarefasAnteriores.map(tarefa => ({
+      ...tarefa,
+      selecionado: tarefa.id === tarefaSelecionada.id ? true : false
+    })))
   }
   
   return (
@@ -26,4 +30,6 @@ function App() {
   );
 }
 
-export default App;
+// mais aluma coisa para fazer:
+
+export default App

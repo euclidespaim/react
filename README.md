@@ -33,3 +33,4 @@ You will also see any lint errors in the console.
 - Utilizar o método setState para atualizar o estado;
 - Adcionar classes CSS de forma condicional;
 - Extender interfaces para reaproveitar código;
+- Refatorar um class component para um function component;

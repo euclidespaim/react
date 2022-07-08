@@ -30,6 +30,5 @@ function App() {
   );
 }
 
-// mais aluma coisa para fazer:
 
 export default App

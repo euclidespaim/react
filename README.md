@@ -34,3 +34,4 @@ You will also see any lint errors in the console.
 - Adcionar classes CSS de forma condicional;
 - Extender interfaces para reaproveitar código;
 - Refatorar um class component para um function component;
+###############################################################
